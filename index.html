@@ -6,14 +6,14 @@
 </head>
 <body>
 <a href="https://war.ukraine.ua/donate/" class="em-ribbon" style="position: fixed; left:0; top:0; width: 90px; height: 90px; background: url('http://stfalcon.github.io/stopwar/img/stop-war-in-ukraine.png'); z-index: 10000; border: 0;" title="Do something to stop this war! Russians are killing our children and civilians!" target="_blank"></a>
-<canvas id="myCanvas" width="400" height="300" style="border:1px solid blue">Будь ласка, встановіть оглядач з підтримкою Canvas, щоб грати в цю гру.</canvas><br>
+<center><canvas id="myCanvas" width="400" height="300" style="border:1px solid blue">Будь ласка, встановіть оглядач з підтримкою Canvas, щоб грати в цю гру.</canvas><br>
 Ширина:<input id="w" value="400" type="number"><br>
 Висота:<input id="h" value="300" type="number"><br>
 Кількість мін:<input id="dmc" value="300" type="number"><br>
 <input id="button" type="button" value="Змінити параметри гри та почати знову" onclick="restart()"><br>
 <input type="checkbox" id="showMines" onclick="draw(-1)">Показувати всі міни<br>
 <!--<input id="files-upload"type="file"><ul id="file-list"></ul>-->
-<a id="saveCvs" download="canvasGame.png">Зберегти зображення поля</a>
+<a id="saveCvs" download="canvasGame.png">Зберегти зображення поля</a></center>
 <script>
 "use strict";
 function getRandomInt(min, max) {
